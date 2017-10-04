@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	
+
+</head>
+<body>
+<div class="wrapper">
+     
+       <div class="main_wrapper">
+          
+          <div class="ventana_login">
+             <div id='mensajes'><p></p></div>
+             
+             
+	<form action="login.php" method="post" class="registro">
+	
+		<div class="input">
+            <input type="text" name="nombre" placeholder="email">
+		</div>
+		<div class="input">
+		    <div id="pass">
+		        <input type="password" name="passwrd" placeholder="Contraseña" class="pass1"> 
+                <img src="img/ojo.png" class="pass1" id="visor"/>
+		    </div>
+		</div>
+		<div class="input">
+        
+		    Alumno
+            <input class="radio" name="campus" value="" type="radio">
+            Profesor
+            <input class="radio" name="campus" value="" type="radio">
+            
+        
+       
+		</div>
+                         <input type="submit" value="Enviar" class="enviar">
+		
+		 <div class="link"> <a href="olvidarContraseña.html">¿Has olvidado la contraseña?</a> 
+  
+	
+	</form>
+          
+          </div>
+       </div>
+      
+        
+    </div>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/registro.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

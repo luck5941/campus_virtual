@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title></title>    
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	
+</head>
+<body>
+       <div class="main_wrapper">
+          
+          <div class="ventana_registro">
+             <div id='mensajes'><p></p></div>
+              
+              
+<form id="selectCampus">
+<div class="titleType">
+<span class="type1"> Vas a introducir un nuevo:</span> <br>
+    </div>
+	Alumno: <input type="radio" name="campus" value="" class="radio"> <br>
+	Profesor: <input type="radio" name="campus" value="" class="radio"> <br>	
+</form>
+<form class="formRegistro" action="php/process.php" method="post" id="alumnos">
+Nombre: <input type="text" name="nombre"><br>
+Apellidos:  <input type="text" name="apellidos"><br>
+Fecha de nacimiento: <input type="text" name="nacimiento" placeholder="AAAA-MM-SS">
+<br>
+Sexo:  <select name="sexo"><option value="M">Hombre</option><option value="F">Mujer</option><option value="O">Otro</option></select><br>
+DNI:  <input type="text" name="dni" pat="[0-9]{8}[A-Z]"><br>
+Direccion: <input type="text" name="direccion"><br>
+Ciudad: <input type="text" name="ciudad"><br>
+Provincia: <input type="text" name="provincia"><br>
+CP: <input type="text" name="cp" pat="\d{5}"><br>
+Cuenta bancaria: <input type="text" name="cuenta" pat="\w{2}\d{2}([-]\d{4}){5}" placeholder="esNN-NNNN-NNNN-NNNN-NNNN-NNNN"><br>
+Curso: <input type="text" name="curso" placeholder="N.N"><br>
+<select name="grado">
+	<option value="">--Grado--</option>
+	<option value="grafico">Diseño Gráfico</option>
+	<option value="videojuegos">Diseño de Videojuegos</option>
+	<option value="moda">Diseño de Moda</option>
+</select><br>
+Tlf: <input type="text" name="telefono" pat="\d{9}"><br>
+Mail: <input type="mail" name="email"><br>    
+<input type="submit" name="" class="enviar">  
+</form>
+
+<form class="formRegistro" action="php/process.php" method="post" id="profesores">
+Nombre: <input type="text" name="nombre"><br>
+apellidos:  <input type="text" name="apellidos" placeholder="Apellidos"><br>
+Fecha de nacimiento: <input type="text" name="nacimiento" placeholder="AAAA-MM-SS"> <br>
+sexo:  <select name="sexo"><option value="M">Hombre</option><option value="F">Mujer</option><option value="O">Otro</option></select><br>
+DNI:  <input type="text" name="dni" pat="[0-9]{8}[A-Z]"><br>
+Direccion: <input type="text" name="direccion"><br>
+Ciudad: <input type="text" name="ciudad"><br>
+Provincia: <input type="text" name="provincia"><br>
+cp: <input type="text" name="cp" pat="\d{5}"><br>
+Cuenta bancaria: <input type="text" name="cuenta" pat="\w{2}\d{2}([-]\d{4}){5}"><br>
+tlf: <input type="text" name="telefono" pat="\d{9}"><br>
+mail: <input type="text" name="email"><br>    
+<input type="submit" name="">
+
+
+</form>
+<div id="mensajes"><p></p></div>
+      </div>   
+   
+    </div>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/registro.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+              
+              
+    
+    
+</body>
+</html>

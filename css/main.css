@@ -1,0 +1,591 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'), url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('roboto-bolditalic-webfont.woff2') format('woff2'), url('roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('roboto-italic-webfont.woff2') format('woff2'), url('roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'), url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('roboto-lightitalic-webfont.woff2') format('woff2'), url('roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2') format('woff2'), url('roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('roboto-mediumitalic-webfont.woff2') format('woff2'), url('roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'), url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Final Fonts */
+
+body {
+    margin: 0 auto;
+    background-color: #fafafa;
+    font-family: 'robotoregular';
+}
+
+
+/* --------  Elementos comunes --------- */
+
+a {
+    color: darkgray;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #FF1744;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.main_wrapper {
+    width: 95%;
+    margin: 20px 2.5%;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #FF1744;
+}
+
+
+/* --------  Elementos comunes --------- */
+
+
+/* --------  Aqui empieza el login --------- */
+
+.ventana_login {
+    width: 30%;
+    float: left;
+    box-shadow: 3px 6px 20px #cccccc;
+    margin: 20% 35%;
+    background-color: #FF1744;
+    padding: 15px;
+}
+
+.input {
+    width: 100%;
+    float: left;
+    height: 25px;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#pass {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+#pass .input {
+    width: 80%;
+    float: left;
+}
+
+#visor {
+    width: 11%;
+    float: left;
+}
+
+.campus {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    color: white;
+}
+
+.campus input {
+    margin: 0 0 30px 15%;
+}
+
+.send_login {
+    width: 20%;
+    margin: 0 40%;
+}
+
+
+/* --------  Aqui termina el login --------- */
+
+
+/* --------  Aqui empieza el index --------- */
+
+main {
+    width: 59%;
+    float: left;
+    box-shadow: 3px 6px 20px #cccccc;
+    height: 1200px;
+    background-color: white;
+}
+
+.rowInfo {
+    width: 100%;
+    float: left;
+    height: 140px;
+}
+
+.asigName {
+    width: 100%;
+    height: 45px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #FF1744;
+}
+
+.asigDatos {
+    width: 90%;
+    float: left;
+    margin: 10px 0;
+    height: 150px;
+    float: left;
+    padding: 15px;
+}
+
+.rowCat {
+    width: 95%;
+    float: left;
+    margin: 5px 0 0 2%;
+    height: 35px;
+    background-color: #FF1744;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    text-align: left;
+    padding: 7px;
+}
+
+.rowCat2 {
+    border: none;
+    background-color: white;
+}
+
+.info2 {
+    display: none;
+}
+
+.textDcha {
+    float: right;
+    font-family: 'robotoitalic';
+    width: 20%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.textDcha a {
+    color: darkgray;
+    text-decoration: underline;
+}
+
+.textIzq {
+    float: left;
+    margin: 1%;
+    width: 70%;
+}
+
+#cali {
+    float: left;
+    width: 50%;
+}
+
+#asiste {
+    float: left;
+    width: 50%;
+}
+
+.catName {
+    width: 90%;
+    float: left;
+    font-size: 1.05em;
+    color: white;
+    margin: 9px;
+}
+
+.catName2 {
+    width: 30%;
+    float: left;
+    font-size: 1.5em;
+    color: white;
+    margin: 9px;
+}
+
+.flecha {
+    width: 20px;
+    float: right;
+    ;
+}
+
+.flecha img {
+    height: 20px;
+    float: right;
+}
+
+.cajaAsignatura {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: 20px;
+    display: none;
+    width: 91.2%;
+    margin-bottom: 10px;
+}
+
+.dataAsignatura {
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    border-bottom: solid 2px darkgray;
+    font-size: 0.8em;
+    padding: 9px;
+    text-align: left;
+    float: left;
+}
+
+.dataAsignatura2 {
+    width: 100%;
+    height: 22px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: solid 2px darkgray;
+    background-color: white;
+    font-size: 0.8em;
+    padding: 12px;
+    float: left;
+}
+
+.iconAsignatura {
+    float: left;
+    height: 15px;
+    padding-bottom: 10px;
+}
+
+.iconAsignatura>img {
+    height: 25px;
+}
+
+.iconAsignatura2 {
+    float: left;
+    height: 15px;
+    padding-bottom: 10px;
+    margin: 0 8px;
+}
+
+.iconAsignatura2>img {
+    height: 18px;
+}
+
+.textAsignatura {
+    font-size: 1em;
+    width: 100%;
+}
+
+.textAsignatura2 {
+    font-size: 1em;
+    width: 45%;
+    float: left;
+}
+
+.cajaArchivo {
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+.inputfile {
+    width: 0 px;
+    height: 0 px;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.inputfile + label {
+    font-size: 1em;
+    height: 18px;
+    color: white;
+    background-color: #FF1744;
+    display: inline-block;
+    text-align: center;
+}
+
+label {
+    width: 40%;
+}
+
+.inputfile:focus + label {
+    outline: 0px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label {
+    cursor: pointer;
+}
+
+.enviar {
+    width: 40%;
+    height: 18px;
+    border: none;
+    background-color: #FF1744;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+/* --------  Aqui termina el index --------- */
+
+
+/* --------  Aqui empieza Menu Izquierda --------- */
+
+nav {
+    width: 14%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-left: 2%;
+    padding: 1%
+}
+
+#main_wrapper nav {}
+
+#main_wrapper li {
+    margin-left: 2%;
+    margin-top: 2%;
+    list-style: none;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#main_wrapper a {
+    text-decoration: none;
+}
+
+.MenuButton {
+    color: black;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.li_menu {
+    font-size: 0.9em;
+    color: darkgray;
+    text-align: left;
+}
+
+.li_menu:hover {
+    color: black;
+}
+
+
+/* --------  Aqui termina el Menu Izquierda --------- */
+
+
+/* --------  Aqui empieza Datos Del Alumno --------- */
+
+.colorDato1 {
+    background-color: #F3F3F3;
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+}
+
+.colorDato2 {
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+}
+
+.infoDatos {
+    float: left;
+    width: 50%
+}
+
+.infoDatos2 {
+    float: right;
+    width: 50%;
+}
+
+.infoDatos3 {
+    float: left;
+    width: 70%
+}
+
+.infoDatos4 {
+    float: right;
+    width: 30%;
+}
+
+
+/* --------  Aqui termina Datos Del Alumno --------- */
+
+
+/* --------  Aqui empieza barras izquierda --------- */
+
+aside {
+    width: 17%;
+    float: left;
+    margin: 0 2%;
+}
+
+.calendario {
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.notificaciones {
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.noticias {
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: px;
+}
+
+.drchTitle {
+    width: 95%;
+    height: 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #FF1744;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+
+/* --------  Aqui termina Barras Derecha --------- */
+
+
+/*-------  Tabla de expediente -------*/
+
+.tb_expediente {
+    width: 90%;
+    float: left;
+    margin: 15px 2%;
+}
+
+
+/*-------  Tabla de expediente  -------*/
+
+
+/*-------  Columna  -------*/
+
+.columna1 {
+    width: 40%;
+    float: left;
+    margin-top: 30px;
+}
+
+.tituloColumna1 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'robotobold';
+    background-color: lightgray;
+}
+
+.contenidoColumna1 {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.columna {
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+}
+
+.tituloColumna {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'robotobold';
+    background-color: lightgray;
+}
+
+.contenidoColumna {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.descargaColumna {
+    max-width: 17px;
+}
+
+
+/*-------  Columna  -------*/

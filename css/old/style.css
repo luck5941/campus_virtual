@@ -1,0 +1,279 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('roboto-italic-webfont.woff2') format('woff2'),
+         url('roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Final Fonts */ 
+
+
+
+
+
+
+body {
+    font-family: 'robotoregular';
+    background-color: #fafafa;
+}
+
+
+
+header{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #FF1744; 
+}
+
+footer{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #FF1744;
+}
+
+
+.type1 {font-family:'robotobold';  }
+.type2 {font-family:'robotolight_italic'; font-size:1.2em; margin-bottom: 10px;  }
+
+.titleType {margin-bottom:10px;  } 
+
+
+
+/*-------  Formulario de registro -------*/
+
+body{
+    background-color: #FF1744;
+}
+
+#mensajes{
+    font-family: 'robotoregular';
+    color: #FF1744;
+    font-size: 0.9em;
+    width: 90%;
+    margin: 10px 5% -10px 5%;
+}
+
+.ventana_login{
+    width: 25%;
+    float: left;
+    box-shadow: 6px 6px 50px #282828;
+    margin: 17% 35%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+.pass1 {float: left; margin-right: 10px;  }
+#pass>img {max-width: 30px;  width: 6%; }
+
+
+form{
+    width: 90%;
+    float: left;
+    margin: 2%;
+}
+
+.input{
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    font-family: 'robotoitalic';
+    color: #757575;
+}
+
+.enviar {font-family: 'robotobold'; background-color:  #FF1744; color: #f2f2f2; border: none; margin: 10px 0;  }
+
+
+.link >  a  {color: black; font-family: 'robotoitalic';  
+}
+/*-------  Formulario de registro -------*/
+
+
+
+
+
+
+/*-------  Olvidar Contraseña -------*/
+
+#newPsswrd {font-family: 'robotoregular';  }
+
+.ventana_olvidar{
+    width: 20%;
+    float: left;
+    box-shadow: 6px 6px 50px #282828;
+    margin: 17% 35%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+/*-------  Olvidar Contraseña -------*/
+
+
+
+
+
+
+/*------- Cambiar Contraseña --------*/
+#contraVieja {font-size: 1em; }
+#contraVieja input {margin-bottom: 5px; }
+
+.cambiarBoton {font-family: 'robotobold'; background-color:  #FF1744; color: #f2f2f2; border: none; margin: 10px 0 }
+/*------- Cambiar Contraseña --------*/
+
+
+
+
+
+
+
+
+/*-------  Registro -------*/
+
+
+
+.ventana_registro { width: 40%;
+    float: left;
+    box-shadow: 6px 6px 50px #282828;
+    margin: 17% 35%;
+    background-color: #f2f2f2;
+    padding: 15px;
+overflow: auto;
+
+}
+
+#selectCampus input {margin-bottom: 5px;}
+
+
+
+
+
+
+
+/*-------  Registro -------*/
+
+
+
+/*-------  Asignatura -------*/
+
+
+
+.tablaAsignatura {
+     font-family:'robotobold';
+}
+
+.info {
+    width:100%;
+    padding:5px;
+    float: left;
+    display:none; }
+
+
+
+
+
+.rowCat {    width:95%; 
+    padding-left: 1%;  
+    background-color:#FF1744; 
+    color: white; 
+    font-family:'robotolight_italic'; 
+    font-size:1.2em;
+    margin-bottom: 10px;
+    border: none;
+    text-align: left;  }
+
+/*-------  Asignatura -------*/
+
+
+
+
+
+

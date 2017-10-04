@@ -1,0 +1,553 @@
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('roboto-italic-webfont.woff2') format('woff2'),
+         url('roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.woff2') format('woff2'),
+         url('roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Final Fonts */ 
+
+body {
+    margin: 0 auto;
+    background-color: #fafafa;
+    font-family: 'robotoregular'; 
+}
+
+
+
+
+/* --------  Elementos comunes --------- */
+
+
+a { color:darkgray;  }
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+   
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #FF1744;
+    float: left;
+    margin-bottom: 10px; 
+}
+
+.main_wrapper{
+    width: 95%;
+    margin: 20px 2.5%;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    height: 50px;
+    background-color: #FF1744;
+    
+    
+}
+
+
+
+
+
+/* --------  Elementos comunes --------- */
+
+
+
+
+
+
+
+/* --------  Aqui empieza el login --------- */
+
+
+.ventana_login{
+    width: 30%;
+    float: left;
+    box-shadow: 3px 6px 20px #cccccc;
+    margin: 20% 35%;
+    background-color: #FF1744;
+    padding: 15px;
+}
+
+
+
+.input{
+    width: 100%;
+    float: left;
+    height: 25px; 
+   
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#pass{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+#pass .input{
+    width: 80%;
+    float: left;
+}
+
+#visor{
+    width: 11%;
+    float: left;
+}
+
+.campus{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+   
+    color: white;
+}
+
+.campus input{
+    margin: 0 0 30px 15%;
+}
+
+.send_login{
+    width: 20%;
+    margin: 0 40%;
+}
+
+
+
+/* --------  Aqui termina el login --------- */
+
+
+
+
+
+
+
+
+/* --------  Aqui empieza el index --------- */
+
+
+nav{
+    width: 15%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+}
+
+main{
+    width: 62%;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 3px 6px 20px #cccccc;
+    height: 1200px;
+    background-color: white;
+}
+
+.rowInfo{
+    width: 100%;
+    float: left;
+    height: 140px;
+  
+}
+
+.asigName{
+    width: 100%;
+    height: 45px;
+    
+    font-size: 1.2em;
+    color: white;
+    background-color:#FF1744; 
+    
+}
+
+.asigDatos{
+    width: 90%;
+    float: left;
+    margin: 15px 5%;
+    
+}
+
+.rowCat{
+    width: 90%;
+    float: left;
+    margin: 10px 7% 0 7%;
+    height: 45px;
+    background-color: #FF1744;
+    border:none; 
+    
+    
+}
+
+.rowCat2 {
+    border:none;
+background-color:white;
+}
+
+.info2 {
+      
+    display: none; 
+ 
+
+}
+
+
+
+
+.textDcha {
+    float: right;  
+   margin:1%  0% 1% 1%; 
+    font-family: 'robotoitalic'; 
+     
+    
+
+    
+    
+    
+}
+
+
+.textDcha a {
+  
+    color: darkgray; 
+    text-decoration: underline; 
+     
+    
+
+    
+    
+    
+}
+
+
+.textIzq {
+   
+   float:left; 
+    margin: 1%;
+    margin-right: 54%; 
+    width: 32%; 
+    
+}
+
+#cali {float:left;
+width: 50%; }
+
+#asiste {float: left;
+width: 50%; }
+
+.catName{
+    width: 50%;
+    float: left;
+  
+    font-size: 1.2em;
+    color: white;
+    margin: 9px;
+}
+
+
+.catName2{
+    width: 10%;
+    float: left;
+  
+    font-size: 1.5em;
+    color: white;
+    margin: 9px;
+}
+
+
+.flecha{
+    width: 5%;
+    float: right;;
+    margin: 10px;
+}
+
+.flecha img{
+    max-width: 40%;
+    float: right;
+}
+
+
+div.info {
+    padding: 2px; 
+    
+    margin-left: 9%; 
+    display: none; 
+    background-color: white;
+    width: 87%;
+    
+}
+
+
+
+
+.dataAsignatura {
+    
+    
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: solid 2px darkgray; 
+    background-color: white; 
+    font-size: 1.3em;
+    padding: 11px; 
+    text-align: left;
+    float: left;
+ }
+
+
+
+.dataAsignatura2 {
+    
+    
+    width: 70%;
+    height: 32px;
+    margin-top:10px;
+    border: none;
+    border-bottom: solid 2px darkgray; 
+    background-color: white; 
+    font-size: 1.3em;
+    padding: 12px; 
+    text-align: left;
+    float: left;
+ }
+
+
+
+
+
+
+.iconAsignatura { width: 5%; float: left;}
+.iconAsignatura>img { max-width: 35px;}
+.iconAsignatura2 { width: 4%; float: left; margin-right: 12px; }
+.iconAsignatura2>img { max-width: 25px;}
+
+.textAsignatura {font-size:1em; width: 40%;}
+
+
+
+
+.notificacion>a 
+{ 
+    font-size: 1.2em;
+    float: left;
+    color: darkgray; 
+    margin-left: 5px; }
+
+.cajaArchivo {width:25%; float:right; margin-top:12px; }
+
+
+
+.inputfile {
+    
+    width: 20 px;
+	height: 20 px;
+    opacity: 0; 
+    position: absolute; 
+    z-index: 1;
+
+}
+
+.inputfile + label {
+    
+    font-size: 1em;
+    color: white;
+    background-color: #FF1744;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+label { width:60%; height: 20px; }
+
+
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label {
+	cursor: pointer;
+}
+
+
+.enviar { 
+    width:40%; height:20px; border: none; background-color: #FF1744; color: white; font-size: 1em;  }
+
+
+
+
+
+
+
+
+
+
+
+aside {
+    width: 17%;
+    float: left;
+}
+
+.calendario{
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.notificaciones{
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.noticias{
+    width: 100%;
+    float: left;
+    height: 200px;
+    box-shadow: 3px 6px 20px #cccccc;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+
+/* --------  Aqui termina el index --------- */
+
+
+
+/* --------  Aqui empieza Menu Izquierda --------- */
+
+#main_wrapper nav {
+   margin-left: 1%;
+   padding: 0.5%
+}
+
+
+#main_wrapper li {
+margin-left: 5%;
+    margin-top:1%;
+list-style: none; 
+    font-size: 0.9em; 
+    
+}
+#main_wrapper a {
+    text-decoration: none; 
+}
+
+
+.MenuButton { color: black; font-size: 1.2em;  }
+.MenuButton:hover  {color: darkgray;  }
+
+.li_menu {margin-left: 10%; color:black} 
+.li_menu:hover {color: darkgray; } 
+
+
+
+
+
+
+
+/* --------  Aqui termina el Menu Izquierda --------- */
